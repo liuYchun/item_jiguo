@@ -1,7 +1,6 @@
 footer {
   margin: 0px;
   padding: 0px;
-  width: 1423px;
   height: 360px;
   margin: 0px auto;
   background-color: #505050;
@@ -110,7 +109,9 @@ header{
     border: 2px solid #f8563d;
     border-radius: 2px;
 }
-
+.red {
+  color: #f8563d!important;
+}
 
 
 
