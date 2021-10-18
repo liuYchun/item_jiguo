@@ -7,15 +7,15 @@ footer {
   background-color: #505050;
 }
 footer div.footer {
-  width: 1200px;
+  width: 1000px;
   margin: 0px auto;
   height: 330px;
   display: flex;
   flex-direction: row;
-  padding: 50px;
+  justify-content: space-between;
+  padding-top: 50px;
 }
 footer div.footer>img {
-  margin-right: 30px;
   width: 200px;
   height: 200px;
 }
@@ -27,16 +27,15 @@ footer div.footer p {
 footer div.footer ul {
   margin-top: 0px;
   list-style: none;
-  margin-left: 10px;
 }
 footer div.footer ul li {
-    width: 200px;
+    width: 120px;
   height: 24px;
   line-height: 24px;
   font-size: 16px;
 }
 footer div.footer ul li:first-child {
-  width: 150px;
+  width: 120px;
   height: 40px;
   line-height: 40px;
   color: white;
@@ -46,16 +45,18 @@ footer div.footer ul li a {
   height: 100%;
   width: 100%;
   color: #A2ACA3;
-  font-size: 14px;
+  font-size: 12px;
   text-decoration: none;
 }
 footer div.footer ul.ul_ li a {
   
-    width: 100px;
+    width:100px;
    
   }
-  footer div.footer ul.ul_{
-      margin-left: -40px;
+  footer div.footer ul.ul_ li{
+    width: 200px;
+
+
   }
 footer>p {
     
