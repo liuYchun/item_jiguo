@@ -1,0 +1,98 @@
+/* 酷玩 */
+.play{
+    border-top: 2px solid #A2ACA3;
+}
+.play_in{
+    width: 1000px;
+    margin: 0 auto;
+}
+.play .play_title{
+    width: 1000px;
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+}
+.play_title h1{
+    font-size: 34px;
+}
+.play .play_content .paly_nav{
+    width: 700px;
+    height: 50px;
+    margin-left: 270px;
+}
+.play .play_content .paly_nav>li{
+    float: left;
+    font-size: 16px;
+    line-height: 47px;
+    padding: 0 60px;
+    border-bottom: 3px solid transparent;
+}
+.play .play_content.paly_nav>li:hover{
+    border-bottom: 3px solid #f8563d;
+}
+
+.play_list{
+    background-color: #eeeeee;
+}
+.play_list_in{
+    width: 1100px;
+    margin: 0 auto;
+}
+.play_list_in>li{
+    float: left;
+    width: 220px;
+    height: 215px;
+    margin-right:40px ;
+    background-color: white;
+    border: 1px solid #A2ACA3;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+ .play_list_in>li>img{
+    border-radius: 4px 4px 0 0;
+    width: 218px;
+    height: 130px;
+}
+.play_list_in>li .play_name{
+    margin-left: 10px;
+    font-size: 14px;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+.play_list_in>li .play_introduce{
+    width: 180px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #A2ACA3;
+}
+.play_list_in>li .play_b{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+ .play_list_in>li .play_b .money{
+    float: left;
+    color: #f8563d;
+    font-size: 14px;
+}
+ .play_list_in>li .play_b .like{
+    float: right;
+    margin-right: 10px;
+    color: #A2ACA3;
+}
+
+.play_list_in>li .play_b .like>img,
+.play_list_in>li .play_b .reply>img{
+    margin-top: -2px;
+    
+}
+.play_list_in>li .play_b .reply{
+    float: right;
+    margin-right: 15px;
+    color: #A2ACA3;
+}
