@@ -1,7 +1,6 @@
 footer {
   margin: 0px;
   padding: 0px;
-  width: 1423px;
   height: 360px;
   margin: 0px auto;
   background-color: #505050;
@@ -54,7 +53,7 @@ footer div.footer ul.ul_ li a {
     width: 100px;
    
   }
-  footer div.footer ul.ul_{
+footer div.footer ul.ul_{
       margin-left: -40px;
   }
 footer>p {
