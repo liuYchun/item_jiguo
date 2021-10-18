@@ -7,18 +7,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>极果网</title>
     <!-- 清除默认样式 -->
-    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="../css/base.css">
     <!-- 首页内容样式 -->
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="../css/common.css">
     <!-- 首页样式 -->
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- <link rel="stylesheet" href="./guid.css"> -->
+    <link rel="stylesheet" href="../css/guid.css">
 </head>
 
 <body>
+
     <!-- 头部 -->
     <header>
         <div class="header_con">
-            <img src="./img/logonew.png" alt="">
+            <img src="../img/logonew.png" alt="">
             <ul>
                 <li><a href="#">首页</a></li>
                 <li><a href="#">酷玩</a></li>
@@ -27,40 +30,42 @@
                 <li><a href="#">报告</a></li>
             </ul>
             <div class="header_right">
-                <img src="./css/img/search.png" alt="">
+                <img src="../css/img/search.png" alt="">
                 <a href="#">注册</a>
             </div>
         </div>
 
     </header>
-    <!-- 中心模块 -->
-    <div class="common">
-        <!-- 首页顶部背景 -->
-        <div class="com_hd_bg">
 
-        </div>
-        <!-- 首页热门试用 -->
-        <div class="hot_trial">
-            <div class="hot_trial_in">
-                <h3>热门试用</h3>
-                <!-- 轮播 -->
-                <div class="hot_trial_in_com">
-                    <div class="hot_trial_in_ul">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </div>
+
+    <!-- 导购部分 -->
+    <article>
+        <h1>导购清单</h1>
+        <p><a href="./guid_new.html">最新</a><a class="red_a" href="#">最热</a></p>
+        <ul id="ul_">
+            <li>
+                <img src="http://192.168.1.29:3000/img/hot4.jpg" alt="">
+                <p>Liquid Image 338 运动摄像眼镜</p>
+                <div>
+                    <img src="../css/img/xin.png" alt=""><span>3</span>
+                    <img src="../css/img/reply.png" alt=""><span>3</span>
                 </div>
-            </div>
-        </div>
+            </li>
+        </ul>
+    </article>
+    <br>
+
+    <div class="go">
+        <img src="../css/img/more.png" alt="">
+        <a href="#">点击加载更多</a>
     </div>
+
     <!-- 尾部 -->
     <footer>
         <div class="footer">
-            <img src="./img/code.png" alt="">
+            <img src="../img/code.png" alt="">
             <div>
-                <img src="./img/logoImg.jpg" alt="">
+                <img src="../img/logoImg.jpg" alt="">
                 <p>全球酷玩试用导购平台酷新奇好玩品质</p>
                 <p>微信添加"JguoJguo"获取我们的服务。</p>
             </div>
@@ -100,5 +105,10 @@
         <p>©2016 极果版权所有</p>
     </footer>
 
+</body>
+<script src="./guid.js"></script>
+<script>
+    main('http://192.168.1.29:3000/guid/hot')
+</script>
 
 </html>
