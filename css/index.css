@@ -62,42 +62,42 @@ footer>p {
   text-align: center;
   color: #A2ACA3;
 }
-.w1{
+.header_con {
     width: 1000px;
     margin: 0 auto;
 }
 header{
     height: 75px;
 }
-header>img{
+.header_con>img{
     width: 130px;
     float: left;
     margin-top: 10px;
 }
-header>ul{
+.header_con>ul{
     float: left;
     height: 75px;
     margin-left: 60px;
 }
-header>ul>li{
+.header_con>ul>li{
     float: left;
     height: 75px;
     line-height: 75px;
 }
-header>ul>li>a{
+.header_con>ul>li>a{
     float: left;
     font-size: 20px;
     color:black;
     padding: 0 25px;
 }
-header .header_right{
+.header_con .header_right{
     float: right;
     margin-top: 20px;
 }
-header .header_right>img{
+.header_con .header_right>img{
     margin-top: -5px;
 }
-header .header_right>a{
+.header_con .header_right>a{
     display: inline-block;
     width: 50px;
     height: 30px;
