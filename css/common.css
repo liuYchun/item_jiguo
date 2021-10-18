@@ -1,37 +1,285 @@
 .com_hd_bg {
+    
     height: 300px;
     background: url(../css/img/original.jpg) no-repeat top center;
 }
+.com_hd_bg_in {
+    position: relative;
+    width: 1000px;
+    height: 300px;
+    margin: 0 auto;
+}
+.com_hd_bg_con {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 320px;
+    height: 300px;
+}
+.com_hd_bg_con ul {
+    margin-top: 30px;
+    padding-left: 114px;
+}
+.com_hd_bg_con ul li {
+    float: left;
+    padding: 10px 8px;
+    margin: 0 6px;
+    color: white;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, .4);
+}
+.com_hd_bg_con h2 {
+    color: white;
+    font-size: 32px;
+    margin-top: 45px;
+}
+.com_hd_bg_con p {
+    color: white;
+    margin-top: 25px;
+    font-size: 18px;
+    text-align: right;
+}
+.com_hd_bg_con_btn {
+    font-size: 24px;
+    line-height: 50px;
+    color: white;
+    text-align: center;
+    float: right;
+    width: 240px;
+    height: 50px;
+    border-radius: 8px;
+    margin-top: 20px;
+    background-color: #f65340;
+}
 .hot_trial {
     height: 380px;
-    background-color: aqua;
+    background-color: white;
 }
 .hot_trial_in {
     height: 380px;
     width: 1000px;
     margin: 0 auto;
-    background-color: blue;
 }
-.hot_trial_in h3 {
+.hot_trial_in h3,
+ .selected_in h3,
+ .guide_in h3 ,
+ .find_in h3{
+    position: relative;
     line-height: 68px;
     font-size: 20px;
     height: 68px;
     color: #404e4e;
-    background-color: brown;
 }
+
+
+ .selected_in h3 span,
+ .guide_in h3 span ,
+ .find_in h3 span {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    width: 75px;
+    padding-left: 8px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    color: #f65340;
+ }
+ .selected_in h3 span i,
+ .guide_in h3 span i ,
+ .find_in h3 span i {
+     position: absolute;
+     right: -4px;
+     top: 3px;
+     width: 12px;
+     height: 10px;
+     background: url(../css/img/readMore.png) no-repeat;
+ }
+
+
 .hot_trial_in_com {
     width: 1000px;
     
 }
 .hot_trial_in_ul {
-    width: 1036px;
+    width: 1000px;
     height: 288px;
-    background-color: cadetblue;
 }
 .hot_trial_in_ul li {
     float: left;
     width: 222px;
     height: 288px;
-    background-color: chocolate;
     margin-right: 37px;
+}
+.hot_trial_in_ul .g-scrolling-carousel  .items a {
+    position: relative;
+    width: 222px;
+    height: 288px;
+    margin-right: 37px;
+    display: inline-block;
+    box-shadow: 0 0 5px #000;
+    text-align: center;
+    text-align: center;
+    word-wrap:break-word;
+    word-break:break-all;
+    overflow: hidden;
+    white-space: normal;
+}
+.g-scrolling-carousel  .items a img {
+    width: 222px;
+    height: 130px;
+}
+.g-scrolling-carousel  .items a p {
+    display: block;
+    width: 222px;
+    font-size: 18px;
+    color: black;
+    word-wrap: break-word;
+    word-break: normal;
+}
+.g-scrolling-carousel  .items a p span {
+    color:  #f65340;
+}
+.g-scrolling-carousel  .items a .btn {
+    width: 222px;
+    height: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.g-scrolling-carousel  .items a .btn i {
+    
+    display: inline-block;
+    padding: 3px 10px;
+    margin: 0 6px;
+    border: 1px solid #f65340;
+    border-radius: 3px;
+}
+.g-scrolling-carousel  .items a p em {
+    color: #f65340;
+    font-size: 14px;
+}
+.selected {
+    height: 592px;
+    background-color: #f7f7f7;
+}
+.selected_in {
+    width: 1000px;
+    height: 592px;
+    margin: 0 auto;
+}
+.selected_in ul li,
+.find_in ul li {
+    float: left;
+    margin-right: 36px;
+    margin-bottom: 20px;
+    width: 222px;
+    height: 232px;
+    border: 1px solid #929191;
+    border-radius: 5px;
+}
+.selected_in ul li:nth-of-type(4n),
+.find_in ul li:nth-of-type(4n) {
+    margin-right: 0;
+}
+.selected_in ul li img,
+ .guide_in ul li img,
+ .find_in ul li img {
+    width: 222px;
+    height: 130px;
+}
+.selected_in ul li p,
+.guide_in ul li p,
+.find_in ul li p {
+    margin-top: 10px;
+    padding: 0 10px;
+    font-size: 12px;
+    text-align: left;
+}
+.li_bto {
+    position: relative;
+    height: 35px;
+    margin-top: 18px;
+    padding: 0 10px;
+    line-height: 35px;
+}
+.li_bto span {
+    color: #a9aaae;
+}
+.li_bto .i1 {
+    position: absolute;
+    padding-left: 13px;
+    top: 12px;
+    right: 33px;
+    width: 25px;
+    height: 16px;
+    line-height: 16px;
+    color: #a9aaae;
+    background: url(../css/img/zan.png) no-repeat;
+}
+.li_bto .i2 {
+    position: absolute;
+    padding-left: 13px;
+    top: 12px;
+    right: 8px;
+    width: 25px;
+    height: 16px;
+    line-height: 16px;
+    color: #a9aaae;
+    background: url(../css/img/reply.png) no-repeat;
+}
+
+.guide {
+    height: 348px;
+}
+.guide_in {
+    width: 1000px;
+    margin: 0 auto;
+    height: 348px;
+}
+.guide_in ul li {
+    position: relative;
+    float: left;
+    width: 222px;
+    height: 225px;
+    border: 1px solid #929191;
+    border-bottom: none;
+    border-radius: 5px;
+    margin-right: 36px;
+}
+.guide_in ul li:nth-of-type(4) {
+    margin-right: 0;
+}
+.bor_bto {
+    position: absolute;
+    background: url(../css/img/listbg.jpg) no-repeat;
+    width: 222px;
+    height: 15px;
+    bottom: -10px;
+    left: 0;
+}
+
+.find {
+    height: 1180px;
+    background-color: #f7f7f7;
+}
+.find_in {
+    width: 1000px;
+    margin: 0 auto;
+}
+.find_in .li_bto span {
+    color: #f65340;
+} 
+.find_in ul li p em {
+    color: gray;
+}
+.load_more {
+    cursor: pointer;
+    width: 130px;
+    height: 20px;
+    margin: 30px auto 0;
+    padding-left: 20px;
+    color: #f65340;
+    font-size: 16px;
+    background-color: indigo;
+    background: url(../css/img/more.png) no-repeat center left;
 }

@@ -109,7 +109,9 @@ header{
     border: 2px solid #f8563d;
     border-radius: 2px;
 }
-
+.red {
+  color: #f8563d!important;
+}
 
 
 
