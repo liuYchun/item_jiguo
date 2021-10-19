@@ -1,0 +1,63 @@
+.regist {
+    height: 844px;
+    background-color: #f7f7f7;
+    border-top: 1px solid #d0d0d0;
+}
+.regist_in {
+    position: relative;
+    width: 1000px;
+    height: 783px;
+    margin: 0 auto;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    margin-top: 25px;
+    background-color: white;
+}
+.regist_in h4 {
+    margin-top: 24px;
+    height: 26px;
+    padding-left: 20px;
+    line-height: 26px;
+    font-size: 18px;
+    border-left: 6px solid #f65543;
+}
+.regist_box {
+    width: 400px;
+    height: 513px;
+    margin: 73px auto 0;
+}
+.regist_box input {
+    padding-left: 10px ;
+    margin-bottom: 28px;
+    border-radius: 6px;
+    background-color: #f7f7f7;
+}
+.regist_box img {
+    margin-left: 32px;
+}
+.huoqu {
+    width: 132px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid #a3a3a3;
+    margin-left: 19px;
+}
+.pic,         
+.number {
+    width: 245px;
+    height: 50px;
+}
+.phone,
+.username,
+.pwd1,
+.pwd2 {
+    width: 400px;
+    height: 50px;
+    
+    
+}
+.submit {
+    width: 400px;
+    height: 50px;
+    background-color: #fe5341!important;
+}

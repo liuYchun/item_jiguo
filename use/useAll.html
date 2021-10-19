@@ -5,56 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册</title>
+    <title>试用</title>
     <!-- 清除默认样式 -->
-    <link rel="stylesheet" href="css/base.css">
-    <!-- 首页样式 -->
-    <link rel="stylesheet" href="./css/index.css">
-    <!-- 注册内容样式 -->
-    <link rel="stylesheet" href="./css/regist.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <!-- 公共样式 -->
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/useAll.css">
 </head>
 
 <body>
     <!-- 头部 -->
     <header>
         <div class="header_con">
-            <img src="./img/logonew.png" alt="">
+            <img src="../img/logonew.png" alt="">
             <ul>
-                <li><a href="#" class="red">首页</a></li>
+                <li><a href="../index.html">首页</a></li>
                 <li><a href="#">酷玩</a></li>
                 <li><a href="#">导购</a></li>
-                <li><a href="use/useAll.html">试用</a></li>
+                <li><a href="#" class="red">试用</a></li>
                 <li><a href="#">报告</a></li>
             </ul>
             <div class="header_right">
-                <img src="./css/img/search.png" alt="">
+                <img src="../css/img/search.png" alt="">
                 <a href="#">注册</a>
             </div>
         </div>
-
     </header>
-    <div class="regist">
-        <div class="regist_in">
-            <h4>注册极果</h4>
-            <div class="regist_box">
-                <form action="" method="post">
-                    <input class="phone" type="text" placeholder="请输入登录手机号">
-                    <input class="pic" type="text" placeholder="请输入图片效验码"><img src="img/imgCode.jpg" alt="">
-                    <input class="number" type="text" placeholder="请输入四位数字验证码"> <button class="huoqu">获取验证码</button>
-                    <input class="username" type="text" placeholder="请输入用户名">
-                    <input class="pwd1" type="password" placeholder="请输入新密码">
-                    <input class="pwd2" type="password" placeholder="确认新密码">
-                    <input class="submit" type="button" value="立即注册">
-                </form>
-            </div>
+    <!-- 免费试用 -->
+    <!-- 顶部 -->
+    <h2 class="free">免费使用</h2>
+    <!-- 导航栏1 -->
+    <div class="useFree_tab1">
+        <div class="useFree_tab1_in">
+            <ul>
+                <li class="red border"><a href="useAll.html">大众试用</a></li>
+                <li><a href="useTeacher.html">体验师专享</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- 导航栏2 -->
+    <div class="useFree_tab2">
+        <div class="useFree_tab2_in">
+            <ul>
+                <li class="black">全部</li>
+                <li><a href="useApplying.html">申请中</a> </li>
+                <li><a href="useTry.html">试用中</a></li>
+                <li><a href="useEnd.html">已结束</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="useAll_com">
+        <div class="useAll_com_in">
+            <ul class="clearfix">
+                <!-- <li>
+                    <img src="../img/hot9.jpg" alt="">
+                    <p>巴幕达The Toaster烤面包
+                        机
+                    </p>
+                    <div class="btn">
+                        <i href="" class="fl">2032</i>
+                        <i href="" class="fr">20台</i>
+                    </div>
+                    <p>
+                        <span>1392</span>申请
+                    </p>
+                    <p><em>剩余时间两天</em></p>
+                </li> -->
+            </ul>
         </div>
     </div>
     <!-- 尾部 -->
     <footer>
         <div class="footer">
-            <img src="./img/code.png" alt="">
+            <img src="../img/code.png" alt="">
             <div>
-                <img src="./img/logoImg.jpg" alt="">
+                <img src="../img/logoImg.jpg" alt="">
                 <p>全球酷玩试用导购平台酷新奇好玩品质</p>
                 <p>微信添加"JguoJguo"获取我们的服务。</p>
             </div>
@@ -96,7 +121,8 @@
 </body>
 
 </html>
-<script src="js/regist.js"></script>
+<!-- 渲染数据 -->
+<script src="../js/useAll.js"></script>
 <script>
-    register();
+    show('http://192.168.1.29:3000/useing/public');
 </script>
