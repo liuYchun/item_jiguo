@@ -26,6 +26,18 @@
     height: 513px;
     margin: 73px auto 0;
 }
+.regist_box .list {
+    position: relative;
+    width: 400px;
+    height: 78px;
+}
+.regist_box .list p {
+    position: absolute;
+    bottom: 6px;
+    left: 10px;
+    color: red;
+    font-weight: 600;
+}
 .regist_box input {
     padding-left: 10px ;
     margin-bottom: 28px;
