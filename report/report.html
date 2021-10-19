@@ -5,12 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>试用</title>
+    <title>极果网</title>
     <!-- 清除默认样式 -->
     <link rel="stylesheet" href="../css/base.css">
-    <!-- 公共样式 -->
+    <!-- 酷玩内容样式
+    <link rel="stylesheet" href="./css/play.css">
+    <!-- 酷玩品类样式 -->
+    <!-- <link rel="stylesheet" href="./css/class.css"> --> 
+    <!-- 报告样式 -->
+    <link rel="stylesheet" href="./report.css">
+    <!-- 首页样式 -->
     <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/useAll.css">
 </head>
 
 <body>
@@ -19,10 +24,10 @@
         <div class="header_con">
             <img src="../img/logonew.png" alt="">
             <ul>
-                <li><a href="../index.html">首页</a></li>
+                <li><a href="#">首页</a></li>
                 <li><a href="#">酷玩</a></li>
                 <li><a href="#">导购</a></li>
-                <li><a href="#" class="red">试用</a></li>
+                <li><a href="#">试用</a></li>
                 <li><a href="#">报告</a></li>
             </ul>
             <div class="header_right">
@@ -31,49 +36,63 @@
             </div>
         </div>
     </header>
-    <!-- 免费试用 -->
-    <!-- 顶部 -->
-    <h2 class="free">免费使用</h2>
-    <!-- 导航栏1 -->
-    <div class="useFree_tab1">
-        <div class="useFree_tab1_in">
-            <ul>
-                <li class="red border"><a href="useAll.html">大众试用</a></li>
-                <li><a href="useTeacher.html">体验师专享</a></li>
-            </ul>
+
+<!-- 报告 -->
+    <div class="report">
+        <div class="report_in">
+            <div class="report_title">
+                <h1>热爱酷玩</h1>
+            </div>
+            <div class="report_content">
+                <ul class="report_nav">
+                 <li><a href="./report.html">最新</a></li>
+                 <li><a href="./rep_hot.html">最热</a></li>
+                </ul>
+            </div>
+          
         </div>
-    </div>
-    <!-- 导航栏2 -->
-    <div class="useFree_tab2">
-        <div class="useFree_tab2_in">
-            <ul>
-                <li class="black">全部</li>
-                <li><a href="useApplying.html">申请中</a> </li>
-                <li><a href="useTry.html">试用中</a></li>
-                <li><a href="useEnd.html">已结束</a></li>
-            </ul>
-        </div>
-    </div>
-    <div class="useAll_com">
-        <div class="useAll_com_in">
-            <ul class="clearfix">
-                <!-- <li>
-                    <img src="../img/hot9.jpg" alt="">
-                    <p>巴幕达The Toaster烤面包
-                        机
-                    </p>
-                    <div class="btn">
-                        <i href="" class="fl">2032</i>
-                        <i href="" class="fr">20台</i>
+        <div class="rep_con clearfix">
+            <div class="w">
+                <ul class="report_list">
+                    <div class="report_list_in">
+                    <!-- <li class="rl">
+                            <img src="../img/bg1.jpg" alt="">
+                            <div class='text'>
+                                <h4>空气净化器里面学问多到惊呆你，你选对了吗？</h4>
+                                <p class="rep_b"><span class="img"><img src="../img/detail1.jpg"></span><span class="uName">苏苏</span><span class="like"><img src="../css/img/xin.png">3</span><span class="reply"><img src="../css/img/reply.png">3</span></p>
+                            </div>
+                            <p class="more">
+                                <a>关于格林威特空气净化器还有4篇报告，点击查看</a>
+                            </p>
+                        </li> -->
                     </div>
-                    <p>
-                        <span>1392</span>申请
-                    </p>
-                    <p><em>剩余时间两天</em></p>
-                </li> -->
-            </ul>
+                </ul> 
+                <div class="report_r">
+                    <div class="a">
+                        <h3 class="a1">极果体验师</h3>
+                        <img src="../img/tiyanImg.jpg" alt="">
+                        <h3>福利</h3>
+                        <p>第一时间体验新品，大众试用优先通过，还有定向邀请使用，新品玩到手软！</p>
+                        <h3>要求</h3>
+                        <p>是某个领域大神级玩家，在社交网络或圈子有大影响力，善写作会拍摄。</p>
+                        <h3>申请</h3>
+                        <p>1、关注极果公众号：jguojguo<br>(或扫描下方二维码)<br>2、在公众号内回复：体验师</p>
+                    </div>
+                    <div class="b">
+                        <h3 class="b1">关注我们</h3>
+                        <img src="../img/myCode.jpg" alt="">
+                    </div>
+                </div> 
+            </div>
         </div>
+        
+        
+        
     </div>
+
+
+
+
     <!-- 尾部 -->
     <footer>
         <div class="footer">
@@ -118,11 +137,9 @@
         </div>
         <p>©2016 极果版权所有</p>
     </footer>
-</body>
-
 </html>
-<!-- 渲染数据 -->
-<script src="../js/useAll.js"></script>
+
+<script src="./report.js"></script>
 <script>
-    show('http://192.168.1.29:3000/useing/public');
+    report('http://192.168.1.29:3000/report/new');
 </script>

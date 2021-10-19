@@ -39,6 +39,7 @@
 }
 .black {
     color: black!important;
+    font-weight: 600;
 }
 .useAll_com {
     color: #f7f7f7;
@@ -65,23 +66,29 @@
     word-break:break-all;
     overflow: hidden;
     white-space: normal;
+    
 }
 .useAll_com_in ul li img {
     width: 222px;
     height: 130px;
+    margin-bottom: 10px;
 }
 .useAll_com_in ul li p {
+    
     display: block;
     width: 222px;
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     word-wrap: break-word;
     word-break: normal;
+    
 }
 .useAll_com_in ul li p span {
     color:  #f65340;
 }
 .useAll_com_in ul li .btn {
+    
+    margin-top: 20px;
     width: 222px;
     height: 25px;
     text-align: center;
