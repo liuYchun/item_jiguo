@@ -1,4 +1,7 @@
 /* 酷玩 */
+.red{
+    border-bottom: 3px solid #f8563d;
+}
 .play{
     border-top: 2px solid #A2ACA3;
 }
