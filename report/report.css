@@ -1,3 +1,7 @@
+.red-{
+    color: #f8563d;
+    border-bottom:3px solid  #f8563d;
+}
 .report{
     border-top: 2px solid #A2ACA3;
 }
@@ -24,11 +28,8 @@
     font-size: 16px;
     line-height: 47px;
     padding: 0 60px;
-    border-bottom: 3px solid transparent;
 }
-.report .report_content .report_nav>li:hover{
-    border-bottom: 3px solid #f8563d;
-}
+
 .rep_con{
     background-color: #f1f1f1e0;
 }

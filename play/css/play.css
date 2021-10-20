@@ -1,6 +1,7 @@
 /* 酷玩 */
-.red{
-    border-bottom: 3px solid #f8563d;
+.red-{
+    color: #f8563d;
+    border-bottom:3px solid  #f8563d;
 }
 .play{
     border-top: 2px solid #A2ACA3;
@@ -28,11 +29,8 @@
     font-size: 16px;
     line-height: 47px;
     padding: 0 60px;
-    border-bottom: 3px solid transparent;
 }
-.play .play_content.paly_nav>li:hover{
-    border-bottom: 3px solid #f8563d;
-}
+
 
 .play_list{
     background-color: #eeeeee;

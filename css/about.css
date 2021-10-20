@@ -1,0 +1,53 @@
+article{
+    width: 1000px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+article>div{
+    width: 270px;
+    background-color: #F3F3F3;
+    padding: 15px;
+    height: 300px;
+}
+section{
+    width: 700px;
+    background-color: #F3F3F3;
+    padding: 15px;
+}
+
+article h2{
+    font-size: 20px;
+    color: #40403E;
+    border-bottom: 1px solid #40403E;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+}
+article h3{
+    font-size: 16px;
+    color: #5C5A5D;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+article>div a{
+    display: block;
+    margin-left: 10px;
+
+}
+section p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+section>div span{
+    font-size: 20px;
+    color: #40403E;
+    font-weight: bold;
+    margin-top: 20px;
+}
+section>div p{
+    margin-left: 20px;
+}
