@@ -308,3 +308,17 @@
     background-color: indigo;
     background: url(../css/img/more.png) no-repeat center left;
 }
+.back {
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 80px;
+    bottom: 150px;
+    background-color: rgba(255, 255, 255, .7);
+    z-index: 99;
+    font-size: 33px;
+    text-align: center;
+    color: rgb(226, 144, 144);
+    border-radius: 8px;
+    box-shadow: 1px 3px 11px 4px rgb(99, 97, 98);
+}

@@ -601,11 +601,28 @@
         </div>
         <p>©2016 极果版权所有</p>
     </footer>
+    <div class="back">↑</div>
 </body>
 
 </html>
 <script>
     $(document).ready(function () {
         $(".g-scrolling-carousel .items").gScrollingCarousel();
+        // 返回顶部
+        var boxtop = $('.selected').offset().top;
+        $(window).scroll(function () {
+            var len = $(document).scrollTop();
+            if (len >= boxtop) {
+                $('.back').fadeIn();
+            } else {
+                $('.back').fadeOut();
+            }
+        })
+        $('.back').click(function () {
+            $('body,html').stop().animate({
+                scrollTop: 0
+            })
+        })
     });
+
 </script>
