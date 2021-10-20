@@ -195,6 +195,7 @@
     height: 232px;
     border: 1px solid #929191;
     border-radius: 5px;
+    
 }
 .selected_in ul li:nth-of-type(4n),
 .find_in ul li:nth-of-type(4n) {
@@ -205,6 +206,11 @@
  .find_in ul li img {
     width: 222px;
     height: 130px;
+}
+.selected_in ul li:hover,
+.guide_in ul li:hover,
+.find_in ul li:hover {
+    box-shadow: 1px 3px 11px 4px rgb(99, 97, 98);
 }
 .selected_in ul li p,
 .guide_in ul li p,
