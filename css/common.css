@@ -11,11 +11,30 @@
 }
 .com_hd_bg_con {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: -59px;
+    right: -327px;
     width: 320px;
     height: 300px;
+    opacity: 0;
+    transform: scale(.6) rotate(180deg);
+    animation: move 2s forwards;
+    
 }
+@keyframes move {
+    0% {
+        top: -59px;
+        right: -327px;
+        opacity: 0;
+        transform: scale(.6) rotate(180deg);
+    }
+    100% {
+        top: 0;
+        right: 0;
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
 .com_hd_bg_con ul {
     margin-top: 30px;
     padding-left: 114px;
